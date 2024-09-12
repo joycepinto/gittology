@@ -11,12 +11,12 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
-      -name: Check out repository
-       uses: actions/checkout@v4
-      -name: Configure environment variables
-       run: ./configure
-      -name: Build test application
-       run: make
-      -name: Run tests
-       run: make test
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Configure environment variables
+        run: ./configure
+      - name: Build test application
+        run: make
+      - name: Run tests
+        run: make test
 
