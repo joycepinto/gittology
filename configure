@@ -1,5 +1,0 @@
-C=gcc            # The C compiler
-CFLAGS=g         # C complilation flags
-NATIVE=on        # compiles code targeted to current hardware
-TUNE=generic     # performance-tuning switch
-
